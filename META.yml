@@ -13,6 +13,10 @@ meta-spec:
   version: 1.4
 name: Data-Validate-WithYAML-Plugin-Country
 requires:
-  Data::Validate::WithYAML: 0.08
+  Data::Validate::WithYAML: 0.11
   Locale::Country::Multilingual: 0
-version: 0.01
+resources:
+  bugtracker: http://github.com/reneeb/Data-Validate-WithYAML-Plugin-Country/issues
+  homepage: http://github.com/reneeb/Data-Validate-WithYAML-Plugin-Country
+  repository: git://github.com/reneeb/Data-Validate-WithYAML-Plugin-Country.git
+version: 0.02

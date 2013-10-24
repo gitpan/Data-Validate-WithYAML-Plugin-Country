@@ -8,7 +8,7 @@ use warnings;
 use Carp;
 use Locale::Country::Multilingual;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 sub check {
     my ($class, $value, $conf) = @_;
@@ -49,9 +49,13 @@ __END__
 
 =pod
 
-=head1 DESCRIPTION
+=head1 NAME
 
-Check if the given value is a valid country code.
+Data::Validate::WithYAML::Plugin::Country - check whether a given value is a valid country code
+
+=head1 VERSION
+
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -79,5 +83,21 @@ Currently this module supports to formats: I<alpha-2> that are two-letter countr
 the three-letter code (e.g. DEU, FRA).
 
 And it supports different languages so you use the country codes in your preferred language (see C<Locale::Country::Multilingual>).
+
+=head1 DESCRIPTION
+
+Check if the given value is a valid country code.
+
+=head1 AUTHOR
+
+Renee Baecker <reneeb@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2012 by Renee Baecker.
+
+This is free software, licensed under:
+
+  The Artistic License 2.0 (GPL Compatible)
 
 =cut

@@ -20,11 +20,11 @@ my %WriteMakefileArgs = (
   "LICENSE" => "artistic_2",
   "NAME" => "Data::Validate::WithYAML::Plugin::Country",
   "PREREQ_PM" => {
-    "Data::Validate::WithYAML" => "0.08",
+    "Data::Validate::WithYAML" => "0.11",
     "Locale::Country::Multilingual" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
